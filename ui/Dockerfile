@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:latest
 
 RUN mkdir -p /usr/app/ui/
 WORKDIR /usr/app/ui/
