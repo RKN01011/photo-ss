@@ -1,0 +1,6 @@
+sse-starlette
+python-multipart
+uvicorn
+fastapi
+pymongo
+

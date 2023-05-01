@@ -1,0 +1,34 @@
+services:
+  mongo:
+    networks:
+      - network
+    image: mongo
+    ports:
+      - 27017:27017
+
+  api:
+    networks:
+      - network
+    ports:
+      - 8000:8000
+    build:
+      api/
+    depends_on:
+      - mongo
+
+  photo_service:
+    networks:
+      - network
+    build:
+      photo_service/
+    depends_on:
+      - mongo
+
+  ui:
+    ports:
+      - 3000:3000
+    build:
+      ui/
+
+networks:
+  network:

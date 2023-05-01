@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "AMD",
+    "outDir": ".",
+    "baseUrl": ".",
+    "target": "ESNext",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
+  }
+}

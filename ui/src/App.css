@@ -1,0 +1,68 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App__Top {
+    width: 60%;
+    height: 60%;
+    min-height: 400px;
+    min-width: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App__Top_dialog {
+    width: 60%;
+    height: 80%;
+
+    border-radius: 3%;
+    box-shadow: 0 0 10px 1px #888888;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.App__Top_dialog_item-TOME {
+    background-color: #d88e2c;
+    padding: 3px;
+
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
+.App__Top_dialog_item-FROMME {
+    background-color: #d7ebd7;
+    padding: 3px;
+
+    margin-top: 3px;
+    border-radius: 10px;
+}
+
+.App__Bottom {
+    width: 60%;
+    height: 40%;
+    min-height: 200px;
+    min-width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App__Bottom_inputs {
+    width: 60%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
