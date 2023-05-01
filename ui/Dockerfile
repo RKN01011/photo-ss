@@ -5,6 +5,6 @@ WORKDIR /usr/app/ui/
 
 COPY . /usr/app/ui/
 
-RUN npm install --only=prod --omit=dev
+RUN npm install
 
 CMD npm run start
