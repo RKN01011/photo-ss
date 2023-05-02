@@ -8,7 +8,7 @@ import Container from 'react-bootstrap/Container';
 
 import './App.css';
 
-const SOURCE = 'http://localhost:8000';
+const SOURCE = 'http://188.68.223.48:8000';
 
 const REG_PATTERN = /[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}/i;
 
@@ -23,8 +23,6 @@ export default class Example extends React.Component<{}, IState> {
     protected _eventSource = null;
 
     protected _photoIds = [];
-
-    protected _photoData = [];
 
     constructor(props) {
         super(props);
